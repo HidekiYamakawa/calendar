@@ -1,0 +1,47 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.monthTitle {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+}
+
+h1 {
+    font: 500 3.5rem 'Poppins';
+}
+
+.weekDay {
+    font: 400 1.5rem 'Poppins';
+    font-weight: bold;
+    padding: 1rem;
+}
+
+#sun, .sunday, .holiday {
+    color: red;
+}
+
+.day {
+    text-align: center;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.day:hover {
+    background-color: #c2c2c2;
+    color: #FFFFFF;
+}
+
+
+
